@@ -1,0 +1,468 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline';">
+
+    <title>Hatchgains</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+  </head>
+  <body>
+    <nav>
+      <div class="navContainer">
+        <a href="#"
+          ><img
+            src="images/hatchgain Logo 1.png"
+            alt="Hatchgains logo"
+            class="logo"
+        /></a>
+        <ul class="linkWrapper">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="pages/about.html">About</a></li>
+          <li><a href="pages/products.html">Product</a></li>
+          <li><a href="pages/services.html">Services</a></li>
+        </ul>
+
+        <div class="cta">
+          <a href="./pages/login.html"> <button>Login</button></a>
+          <a href="./pages/signup.html"><button id="signBtn">Sign up</button></a>
+        </div>
+
+        <div class="menu">
+          <img src="images/menu-alt-svgrepo-com.svg" alt="" class="icon show" />
+          <img src="images/cancel-svgrepo-com.svg" alt="" class="icon hide" />
+        </div>
+      </div>
+    </nav>
+
+    <div class="overlay"></div>
+    <ul class="dropdown">
+      <li id="navLink">
+        <a href="#"
+          ><span class="hero-icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25"
+              />
+            </svg>
+          </span>
+          Home</a
+        >
+      </li>
+      <li id="navLink">
+        <a href="#">
+          <span class="hero-icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="m11.25 11.25.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9-3.75h.008v.008H12V8.25Z"
+              />
+            </svg>
+          </span>
+          About</a
+        >
+      </li>
+      <li id="navLink">
+        <a href="#"
+          ><span class="hero-icon"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M3.75 6A2.25 2.25 0 0 1 6 3.75h2.25A2.25 2.25 0 0 1 10.5 6v2.25a2.25 2.25 0 0 1-2.25 2.25H6a2.25 2.25 0 0 1-2.25-2.25V6ZM3.75 15.75A2.25 2.25 0 0 1 6 13.5h2.25a2.25 2.25 0 0 1 2.25 2.25V18a2.25 2.25 0 0 1-2.25 2.25H6A2.25 2.25 0 0 1 3.75 18v-2.25ZM13.5 6a2.25 2.25 0 0 1 2.25-2.25H18A2.25 2.25 0 0 1 20.25 6v2.25A2.25 2.25 0 0 1 18 10.5h-2.25a2.25 2.25 0 0 1-2.25-2.25V6ZM13.5 15.75a2.25 2.25 0 0 1 2.25-2.25H18a2.25 2.25 0 0 1 2.25 2.25V18A2.25 2.25 0 0 1 18 20.25h-2.25A2.25 2.25 0 0 1 13.5 18v-2.25Z"
+              />
+            </svg>
+          </span>
+          Products</a
+        >
+      </li>
+      <li id="navLink">
+        <a href="#"
+          ><span class="hero-icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M2.25 7.125C2.25 6.504 2.754 6 3.375 6h6c.621 0 1.125.504 1.125 1.125v3.75c0 .621-.504 1.125-1.125 1.125h-6a1.125 1.125 0 0 1-1.125-1.125v-3.75ZM14.25 8.625c0-.621.504-1.125 1.125-1.125h5.25c.621 0 1.125.504 1.125 1.125v8.25c0 .621-.504 1.125-1.125 1.125h-5.25a1.125 1.125 0 0 1-1.125-1.125v-8.25ZM3.75 16.125c0-.621.504-1.125 1.125-1.125h5.25c.621 0 1.125.504 1.125 1.125v2.25c0 .621-.504 1.125-1.125 1.125h-5.25a1.125 1.125 0 0 1-1.125-1.125v-2.25Z"
+              />
+            </svg>
+          </span>
+          Services</a
+        >
+      </li>
+      <li id="navLink">
+        <a href="#">
+          <span class="hero-icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M15.75 9V5.25A2.25 2.25 0 0 0 13.5 3h-6a2.25 2.25 0 0 0-2.25 2.25v13.5A2.25 2.25 0 0 0 7.5 21h6a2.25 2.25 0 0 0 2.25-2.25V15M12 9l-3 3m0 0 3 3m-3-3h12.75"
+              />
+            </svg>
+          </span>
+          Login</a
+        >
+      </li>
+
+      <li>
+        <a href="#" id="signLink"
+          ><span class="hero-icon hero-sign"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M9 3.75H6.912a2.25 2.25 0 0 0-2.15 1.588L2.35 13.177a2.25 2.25 0 0 0-.1.661V18a2.25 2.25 0 0 0 2.25 2.25h15A2.25 2.25 0 0 0 21.75 18v-4.162c0-.224-.034-.447-.1-.661L19.24 5.338a2.25 2.25 0 0 0-2.15-1.588H15M2.25 13.5h3.86a2.25 2.25 0 0 1 2.012 1.244l.256.512a2.25 2.25 0 0 0 2.013 1.244h3.218a2.25 2.25 0 0 0 2.013-1.244l.256-.512a2.25 2.25 0 0 1 2.013-1.244h3.859M12 3v8.25m0 0-3-3m3 3 3-3"
+              />
+            </svg>
+          </span>
+          Sign up</a
+        >
+      </li>
+    </ul>
+
+    <!-- -- HERO SECTION --- -->
+    <!-- -- HERO SECTION --- -->
+    <section class="hero-section">
+      <div class="hero-container">
+        <h1>
+          Sustainably Raised, Expertly Farmed: Your Source for Quality Catfish.
+        </h1>
+        <p>Your Trusted Partner in Catfish Farming and Consultancy.</p>
+        <div class="hero-cta">
+          <button>Get Started</button>
+          <button id="learnBtn">Learn More</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- -- Second Section -- -->
+    <!-- -- Second Section -- -->
+    <section class="section-two">
+      <div class="container-two">
+        <div class="text-content">
+          <h2>
+            Feeding Dreams, One Catfish at a Time – The Hatchgains Promise."
+          </h2>
+          <p>Bringing Freshness and Expertise to Every Pond and Plate</p>
+
+          <button>Get Started</button>
+        </div>
+        <div class="image-content">
+          <img
+            src="images/pexels-julianemonarifotografia-19040471.jpg"
+            alt="A lovely looking catfish"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- -- Third Section ---->
+    <!-- -- Third Section ---->
+
+    <section class="section-three">
+      <div class="container-three">
+        <h2>Our Services</h2>
+        <p class="oven">
+          Oven-Dried, Live, or Fingerlings – We’ve Got Your Catfish Needs
+          Covered.
+        </p>
+        <div class="cards">
+          <div class="card-content">
+            <img src="images/fingerlings.svg" alt="" />
+            <p>Supply of fingerlings</p>
+          </div>
+          <div class="card-content">
+            <img src="images/fishes-svgrepo-com.svg" alt="" />
+            <p>Catfish farming</p>
+          </div>
+          <div class="card-content">
+            <img src="images/oven-baker-line-svgrepo-com.svg" alt="" />
+            <p>Oven dried catfish</p>
+          </div>
+          <div class="card-content">
+            <img
+              src="images/consultant-consult-business-consultant-document-review-svgrepo-com.svg"
+              alt=""
+            />
+            <p>Fish farming consultancy</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- fourth Section -->
+    <!-- fourth Section -->
+    <section id="fourth-section" class="section-three">
+      <div class="container-three">
+        <h2>Our Featured Products</h2>
+        <p class="oven">
+          Discover the Future of Catfish Farming with Hatchgains. Oven-Dried,
+          Live, or Fingerlings – We’ve Got Your Catfish Needs Covered.
+        </p>
+        <div class="product-cards">
+          <div class="product-content">
+            <div class="pix-wrap">
+              <img src="images/fingerlings.jpeg" alt="" />
+            </div>
+            <div class="text-wrap">
+              <p>Fingerlings</p>
+              <p class="text">
+                Li Europan lingues es membres del sam familie. Lor separat
+                existentie es un myth.
+              </p>
+            </div>
+          </div>
+          <div class="product-content">
+            <div class="pix-wrap">
+              <img src="images/livecatfishes.png" alt="" />
+            </div>
+            <div class="text-wrap">
+              <p>Live Catfish</p>
+              <p class="text">
+                Li Europan lingues es membres del sam familie. Lor separat
+                existentie es un myth.
+              </p>
+            </div>
+          </div>
+          <div class="product-content">
+            <div class="pix-wrap">
+              <img src="images/smoked catfishes.jpg" alt="" />
+            </div>
+            <div class="text-wrap">
+              <p>Smoked catfish</p>
+              <p class="text">
+                Li Europan lingues es membres del sam familie. Lor separat
+                existentie es un myth.
+              </p>
+            </div>
+          </div>
+          <div class="product-content">
+            <div class="pix-wrap">
+              <img src="images/African-Catfish.png" alt="" />
+            </div>
+            <div class="text-wrap">
+              <p>Local Fish meal</p>
+              <p class="text">
+                Li Europan lingues es membres del sam familie. Lor separat
+                existentie es un myth.
+              </p>
+            </div>
+          </div>
+        </div>
+        <a href="pages/products.html"> <p class="see">See all Products</p></a>
+      </div>
+    </section>
+
+    <!-- fifth section -->
+    <!-- fifth section -->
+    <section class="fifth-section">
+      <div class="fifth-container">
+        <h2>Discover the Future of Catfish Farming with Hatchgains</h2>
+        <div class="hero-cta">
+          <button>Learn More</button>
+          <button id="learnBtn">Contact Us</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- sixth section -->
+    <!-- sixth section -->
+    <section class="expertise-section">
+      <div class="expertise-container">
+        <div class="expertise-text">
+          <h2>The Benefits of Choosing Our Expertise</h2>
+          <p>
+            Li Europan lingues es membres del sam familie. Lor separat
+            existentie es un myth. Por scientie, musica, sport etc, litot Europa
+            usa li sam vocabular.
+          </p>
+          <a href="#"
+            >Learn more <span><img src="images/arrow.svg" alt="" /></span
+          ></a>
+        </div>
+        <div class="expertise-icons">
+          <div class="icon-wrap">
+            <div class="icon-image">
+              <img src="images/star_rate.svg" alt="" />
+            </div>
+            <div class="icon-text">
+              <h3>15+</h3>
+              <p>Years of experience</p>
+            </div>
+          </div>
+          <div class="icon-wrap">
+            <div class="icon-image">
+              <img src="images/Vector product.svg" alt="" />
+            </div>
+            <div class="icon-text">
+              <h3>40+</h3>
+              <p>Products</p>
+            </div>
+          </div>
+          <div class="icon-wrap">
+            <div class="icon-image">
+              <img src="images/check.svg" alt="" />
+            </div>
+            <div class="icon-text">
+              <h3>2,458+</h3>
+              <p>Satisfied clients</p>
+            </div>
+          </div>
+          <div class="icon-wrap">
+            <div class="icon-image">
+              <img src="images/users icon.svg" alt="" />
+            </div>
+            <div class="icon-text">
+              <h3>20</h3>
+              <p>Local Team Members</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seventh Section -->
+    <!-- Seventh Section -->
+    <section id="seventh-section" class="section-three">
+      <div class="container-three" id="seventh-container">
+        <h2>Testimonials</h2>
+        <p class="oven">
+          Discover the Future of Catfish Farming with Hatchgains. Oven-Dried,
+          Live, or Fingerlings – We’ve Got Your Catfish Needs Covered.
+        </p>
+
+        <!-- Testimonial -->
+        <div class="testimonial">
+          <div class="arrow">
+            <img src="images/testimonial arrow left.svg" alt="" />
+          </div>
+          <div class="test-wrapper">
+            <div class="test-image">
+              <img src="images/Opeyemi.jpg" alt="" />
+            </div>
+            <div class="test-text">
+              <div class="star-wrapper">
+                <img src="images/gold star.svg" alt="" />
+                <img src="images/gold star.svg" alt="" />
+                <img src="images/gold star.svg" alt="" />
+                <img src="images/gold star.svg" alt="" />
+                <img src="images/gold star.svg" alt="" />
+              </div>
+              <h3>Opeyemi Akinwumi</h3>
+              <p class="test-title">Frontend Developer</p>
+              <p class="descc">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta
+                minima vitae id cupiditate, quisquam quos natus incidunt, itaque
+                similique nostrum fugiat illum, accusamus quod voluptate?
+              </p>
+            </div>
+          </div>
+          <div class="arrow">
+            <img src="images/testimonial arrow right.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <!-- Footer -->
+    <footer>
+      <div class="footer-container">
+        <div class="foot-title">
+          <h3>Hatchgains Farms</h3>
+          <p>
+            Li Europan lingues es membres del sam familie. Lor separat
+            existentie
+          </p>
+          <div class="footer-links">
+            <a href="#">
+              <img class="fb" src="images/facebook-svgrepo-com.svg" alt="" />
+            </a>
+            <a href="#">
+              <img class="ig" src="images/instagram-167-svgrepo-com.svg" alt="" />
+            </a>
+            <a href="#">
+              <img class="tweet" src="images/twitter-3-svgrepo-com.svg" alt="" />
+            </a>
+        
+          </div>
+        </div>
+        <div class="foot-pages">
+          <div class="foots">
+            <h4>Pages</h4>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Products</a></li>
+              <li><a href="#">Services</a></li>
+            </ul>
+          </div>
+          <div class="foots">
+            <h4>About</h4>
+            <ul>
+              <li><a href="#">Testimonial</a></li>
+              <li><a href="#">Our Service</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Benefits</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

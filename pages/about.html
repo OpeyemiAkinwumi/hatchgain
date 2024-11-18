@@ -1,0 +1,372 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline';"
+    />
+
+    <title>About Hatchgains</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/png" href="../images/favicon.png" />
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="about.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="navContainer">
+        <a href="../index.html"
+          ><img
+            src="../images/hatchgain Logo 1.png"
+            alt="Hatchgains logo"
+            class="logo"
+        /></a>
+        <ul class="linkWrapper">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="products.html">Product</a></li>
+          <li><a href="services.html">Services</a></li>
+        </ul>
+
+        <div class="cta">
+          <a href="login.html"> <button>Login</button></a>
+          <a href="signup.html"><button id="signBtn">Sign up</button></a>
+        </div>
+
+        <div class="menu">
+          <img
+            src="../images/menu-alt-svgrepo-com.svg"
+            alt=""
+            class="icon show"
+          />
+          <img
+            src="../images/cancel-svgrepo-com.svg"
+            alt=""
+            class="icon hide"
+          />
+        </div>
+      </div>
+    </nav>
+
+    <div class="overlay"></div>
+    <ul class="dropdown">
+      <li id="navLink">
+        <a href="../index.html"
+          ><span class="hero-icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25"
+              />
+            </svg>
+          </span>
+          Home</a
+        >
+      </li>
+      <li id="navLink">
+        <a href="#">
+          <span class="hero-icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="m11.25 11.25.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9-3.75h.008v.008H12V8.25Z"
+              />
+            </svg>
+          </span>
+          About</a
+        >
+      </li>
+      <li id="navLink">
+        <a href="#"
+          ><span class="hero-icon"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M3.75 6A2.25 2.25 0 0 1 6 3.75h2.25A2.25 2.25 0 0 1 10.5 6v2.25a2.25 2.25 0 0 1-2.25 2.25H6a2.25 2.25 0 0 1-2.25-2.25V6ZM3.75 15.75A2.25 2.25 0 0 1 6 13.5h2.25a2.25 2.25 0 0 1 2.25 2.25V18a2.25 2.25 0 0 1-2.25 2.25H6A2.25 2.25 0 0 1 3.75 18v-2.25ZM13.5 6a2.25 2.25 0 0 1 2.25-2.25H18A2.25 2.25 0 0 1 20.25 6v2.25A2.25 2.25 0 0 1 18 10.5h-2.25a2.25 2.25 0 0 1-2.25-2.25V6ZM13.5 15.75a2.25 2.25 0 0 1 2.25-2.25H18a2.25 2.25 0 0 1 2.25 2.25V18A2.25 2.25 0 0 1 18 20.25h-2.25A2.25 2.25 0 0 1 13.5 18v-2.25Z"
+              />
+            </svg>
+          </span>
+          Products</a
+        >
+      </li>
+      <li id="navLink">
+        <a href="#"
+          ><span class="hero-icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M2.25 7.125C2.25 6.504 2.754 6 3.375 6h6c.621 0 1.125.504 1.125 1.125v3.75c0 .621-.504 1.125-1.125 1.125h-6a1.125 1.125 0 0 1-1.125-1.125v-3.75ZM14.25 8.625c0-.621.504-1.125 1.125-1.125h5.25c.621 0 1.125.504 1.125 1.125v8.25c0 .621-.504 1.125-1.125 1.125h-5.25a1.125 1.125 0 0 1-1.125-1.125v-8.25ZM3.75 16.125c0-.621.504-1.125 1.125-1.125h5.25c.621 0 1.125.504 1.125 1.125v2.25c0 .621-.504 1.125-1.125 1.125h-5.25a1.125 1.125 0 0 1-1.125-1.125v-2.25Z"
+              />
+            </svg>
+          </span>
+          Services</a
+        >
+      </li>
+      <li id="navLink">
+        <a href="#">
+          <span class="hero-icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M15.75 9V5.25A2.25 2.25 0 0 0 13.5 3h-6a2.25 2.25 0 0 0-2.25 2.25v13.5A2.25 2.25 0 0 0 7.5 21h6a2.25 2.25 0 0 0 2.25-2.25V15M12 9l-3 3m0 0 3 3m-3-3h12.75"
+              />
+            </svg>
+          </span>
+          Login</a
+        >
+      </li>
+
+      <li>
+        <a href="#" id="signLink"
+          ><span class="hero-icon hero-sign"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M9 3.75H6.912a2.25 2.25 0 0 0-2.15 1.588L2.35 13.177a2.25 2.25 0 0 0-.1.661V18a2.25 2.25 0 0 0 2.25 2.25h15A2.25 2.25 0 0 0 21.75 18v-4.162c0-.224-.034-.447-.1-.661L19.24 5.338a2.25 2.25 0 0 0-2.15-1.588H15M2.25 13.5h3.86a2.25 2.25 0 0 1 2.012 1.244l.256.512a2.25 2.25 0 0 0 2.013 1.244h3.218a2.25 2.25 0 0 0 2.013-1.244l.256-.512a2.25 2.25 0 0 1 2.013-1.244h3.859M12 3v8.25m0 0-3-3m3 3 3-3"
+              />
+            </svg>
+          </span>
+          Sign up</a
+        >
+      </li>
+    </ul>
+
+    <!-- About Us Section -->
+    <section class="about">
+      <div class="about-container">
+        <div class="about-image">
+          <img src="../images/livecatfishes.png" alt="" />
+        </div>
+        <div class="about-text">
+          <h1 class="about-heading">About Us</h1>
+          <p>
+            At Hatchgains Noble Concept Limited, RC - 1609535. We are passionate
+            about catfish farming and committed to delivering the highest
+            quality products and services in the industry. Established with a
+            deep understanding of aquaculture, Hatchgains has grown into a
+            trusted name, providing live catfish, oven-dried catfish, and
+            premium fingerlings to customers across the region. Our dedication
+            to excellence, sustainability, and innovation has made us a go-to
+            partner for farmers and consumers alike.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- What we offer -->
+    <!-- What we offer -->
+    <section class="we-offer">
+      <div class="we-offer-container">
+        <h2 class="about-heading offer-heading">What we offer</h2>
+        <div class="product-cards">
+          <div class="product-content">
+            <div class="pix-wrap">
+              <img src="../images/fingerlings.jpeg" alt="" />
+            </div>
+            <div class="text-wrap">
+              <p>Fingerlings</p>
+              <p class="text">
+                Li Europan lingues es membres del sam familie. Lor separat
+                existentie es un myth.
+              </p>
+            </div>
+          </div>
+          <div class="product-content">
+            <div class="pix-wrap">
+              <img src="../images/livecatfishes.png" alt="" />
+            </div>
+            <div class="text-wrap">
+              <p>Live Catfish</p>
+              <p class="text">
+                Li Europan lingues es membres del sam familie. Lor separat
+                existentie es un myth.
+              </p>
+            </div>
+          </div>
+          <div class="product-content">
+            <div class="pix-wrap">
+              <img src="../images/smoked catfishes.jpg" alt="" />
+            </div>
+            <div class="text-wrap">
+              <p>Smoked catfish</p>
+              <p class="text">
+                Li Europan lingues es membres del sam familie. Lor separat
+                existentie es un myth.
+              </p>
+            </div>
+          </div>
+          <div class="product-content">
+            <div class="pix-wrap">
+              <img src="../images/African-Catfish.png" alt="" />
+            </div>
+            <div class="text-wrap">
+              <p>Local Fish meal</p>
+              <p class="text">
+                Li Europan lingues es membres del sam familie. Lor separat
+                existentie es un myth.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Mission & Why choose us  -->
+    <section class="mission">
+      <div class="mission-container">
+        <div class="mission-text">
+          <h3>Our Mission</h3>
+          <p>
+            At Hatchgains, our mission is simple: to support the growth of the
+            catfish farming industry while ensuring sustainable practices that
+            benefit both farmers and consumers. We believe in nurturing each
+            stage of the farming process, from fingerling to mature fish, to
+            deliver products of the highest quality.
+          </p>
+        </div>
+        <div class="why-choose-wrapper">
+          <h3>Why Choose Us</h3>
+          <div class="choose-wrapper">
+            <h4>Quality first</h4>
+            <p>
+              We are committed to delivering the freshest, healthiest, and
+              tastiest catfish products.
+            </p>
+          </div>
+          <div class="choose-wrapper">
+            <h4>Sustainability</h4>
+            <p>
+              We prioritize sustainable farming practices to ensure long-term
+              benefits for both the environment and our clients.
+            </p>
+          </div>
+          <div class="choose-wrapper">
+            <h4>Expertise</h4>
+            <p>
+              With years of experience, our team offers valuable insights and
+              strategies to help you thrive in the fish farming industry.
+            </p>
+          </div>
+          <div class="choose-wrapper">
+            <h4>Customer Satisfaction</h4>
+            <p>
+              Your success is our success. We go the extra mile to ensure our
+              customers and partners receive the support they need.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <!-- Footer -->
+    <footer>
+      <div class="footer-container">
+        <div class="foot-title">
+          <h3>Hatchgains Farms</h3>
+          <p>
+            Li Europan lingues es membres del sam familie. Lor separat
+            existentie
+          </p>
+          <div class="footer-links">
+            <a href="#">
+              <img class="fb" src="../images/facebook-svgrepo-com.svg" alt="" />
+            </a>
+            <a href="#">
+              <img
+                class="ig"
+                src="../images/instagram-167-svgrepo-com.svg"
+                alt=""
+              />
+            </a>
+            <a href="#">
+              <img
+                class="tweet"
+                src="../images/twitter-3-svgrepo-com.svg"
+                alt=""
+              />
+            </a>
+          </div>
+        </div>
+        <div class="foot-pages">
+          <div class="foots">
+            <h4>Pages</h4>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Products</a></li>
+              <li><a href="#">Services</a></li>
+            </ul>
+          </div>
+          <div class="foots">
+            <h4>About</h4>
+            <ul>
+              <li><a href="#">Testimonial</a></li>
+              <li><a href="#">Our Service</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Benefits</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Interaction -->
+    <!-- Interaction -->
+    <script src="../script.js"></script>
+  </body>
+</html>
